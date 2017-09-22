@@ -1,0 +1,13 @@
+.hoverable{
+    margin-top: -15px;
+    margin-bottom: -15px;
+    background-color: #255;
+    zoom: 1.75;
+}
+.hoverable:hover{
+    zoom: 2.5;
+}
+.push{
+    padding-left: 15px;
+    padding-right: 15px;
+}
