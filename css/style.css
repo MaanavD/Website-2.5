@@ -1,0 +1,21 @@
+.padfix{
+   display: block;
+}
+.hoverable{
+    zoom: 1.5;
+}
+.resultitem{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: -15px;
+    background:#48e;
+    -webkit-transition: 0.5s;
+            transition: 0.5s;
+  }
+  
+  .resultitem:hover{
+    background:#59f;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  
