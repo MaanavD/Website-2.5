@@ -1,10 +1,8 @@
-@font-face {
-    font-family: "accents";
-    src:url("public/fonts/EliiantoRegular.ttf");
-}
-.accents{
-    font-family: "accents";
-}
+.helvetica {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+ }
+ /* Navbar */
 .padfix{
    display: block;
 }
@@ -14,7 +12,41 @@
 .hoverable:hover{
     color: #fe6d50 !important;
 }
+.tweak:hover{
+    -webkit-filter : hue-rotate(180deg);
+    filter : hue-rotate(180deg);
+}
+.tweak:hover{
+    -webkit-filter: invert(60%);
+    filter: invert(60%);
+}
+/* Header */
+body, html {
+    height: 100%;
+}
 
+.bg { 
+    /* The image used */
+    background-image: url("../images/wallpaper.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fullscreen-text{
+    padding-top: 25%;
+    padding-left: 70%;
+    color: #fff;
+}
+/* About Me */
+
+/* Career */
+
+/* Code */
 @media (max-width: 768px) { 
     .hideMD{
         visibility: hidden;
