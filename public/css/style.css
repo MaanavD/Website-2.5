@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "accents";
+    src:url("public/fonts/EliiantoRegular.ttf");
+}
+.accents{
+    font-family: "accents";
+}
+.padfix{
+   display: block;
+}
+.navbartweak{
+    background-color: #121d33 !important;
+}
+.hoverable:hover{
+    color: #fe6d50 !important;
+}
+
+@media (max-width: 768px) { 
+    .hideMD{
+        visibility: hidden;
+    }
+    .align-center{
+        text-align: center;
+    }
+}
