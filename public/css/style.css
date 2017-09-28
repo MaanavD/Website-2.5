@@ -1,57 +1,89 @@
 .helvetica {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 300;
- }
- /* Navbar */
-.padfix{
-   display: block;
 }
-.navbartweak{
+
+.helvetica-bold {
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-stretch: condensed;
+}
+
+
+/* Navbar */
+
+.padfix {
+    display: block;
+}
+
+.navbartweak {
     background-color: #121d33 !important;
 }
-.hoverable:hover{
+
+.hoverable:hover {
     color: #fe6d50 !important;
 }
-.tweak:hover{
-    -webkit-filter : hue-rotate(180deg);
-    filter : hue-rotate(180deg);
+
+.tweak:hover {
+    -webkit-filter: hue-rotate(180deg);
+    filter: hue-rotate(180deg);
 }
-.tweak:hover{
+
+.tweak:hover {
     -webkit-filter: invert(60%);
     filter: invert(60%);
 }
+
+
 /* Header */
-body, html {
+
+body,
+html {
     height: 100%;
 }
 
-.bg { 
+.bg {
     /* The image used */
-    background-image: url("../images/wallpaper.jpg");
-
+    background-image: url("../images/possible.png");
     /* Full height */
-    height: 100%; 
-
+    height: 100%;
+    margin-top: -59px;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.fullscreen-text{
+
+.fullscreen-text {
     padding-top: 25%;
     padding-left: 70%;
     color: #fff;
 }
+.icon-pad{
+    padding-left: 50% !important;
+}
+.btnFix{
+    
+}
 /* About Me */
+
 
 /* Career */
 
+
 /* Code */
-@media (max-width: 768px) { 
-    .hideMD{
+
+@media (max-width: 768px) {
+    .hideMD {
         visibility: hidden;
     }
-    .align-center{
+    .align-center {
         text-align: center;
+    }
+    .rjust {
+        text-align: right;
+    }
+    .fullscreen-text {
+        padding-left: 50%
     }
 }
