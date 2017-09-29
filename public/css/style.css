@@ -22,23 +22,16 @@
 .navbartweak {
     background-color: #121d33 !important;
 }
-
+.hoverable{
+    color: #f5f5f5 !important;
+}
 .hoverable:hover {
     color: #fe6d50 !important;
 }
 
-
 .tweak:hover {
-    -webkit-filter: hue-rotate(180deg);
-    filter: hue-rotate(180deg);
+    filter: brightness(0) invert(1);
 }
-
-.tweak:hover {
-    -webkit-filter: invert(60%);
-    filter: invert(60%);
-}
-
-
 /* Header */
 
 body,
@@ -57,11 +50,10 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .fullscreen-text {
     padding-top: 25%;
     padding-left: 70%;
-    color: #fff;
+    color: #f5f5f5;
 }
 
 .icon-pad {
@@ -72,7 +64,14 @@ html {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 150px;
+    bottom: 100px;
+    color: #f5f5f5;
+    border-color: #f5f5f5;
+    padding: 15px 30px 15px 30px;
+}
+.btnFix:hover{
+    background-color: #fe6d50;
+    border-color: #f5f5f5;
 }
 
 
@@ -96,5 +95,8 @@ html {
     }
     .fullscreen-text {
         padding-left: 50%
+    }
+    .nav-centered{
+        position: relative;
     }
 }
