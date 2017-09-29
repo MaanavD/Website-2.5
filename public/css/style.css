@@ -9,9 +9,12 @@
     font-stretch: condensed;
 }
 
-
 /* Navbar */
-
+.nav-centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .padfix {
     display: block;
 }
@@ -23,6 +26,7 @@
 .hoverable:hover {
     color: #fe6d50 !important;
 }
+
 
 .tweak:hover {
     -webkit-filter: hue-rotate(180deg);
@@ -59,12 +63,19 @@ html {
     padding-left: 70%;
     color: #fff;
 }
-.icon-pad{
+
+.icon-pad {
     padding-left: 50% !important;
 }
-.btnFix{
-    
+
+.btnFix {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 150px;
 }
+
+
 /* About Me */
 
 
