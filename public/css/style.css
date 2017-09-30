@@ -8,6 +8,9 @@
     font-weight: bold;
     font-stretch: condensed;
 }
+.h-white{
+    color: #f5f5f5;
+}
 
 /* Navbar */
 .nav-centered {
@@ -32,19 +35,24 @@
 .tweak:hover {
     filter: brightness(0) invert(1);
 }
+.active{
+    color: #fe6d50 !important;
+}
 /* Header */
 
 body,
 html {
     height: 100%;
 }
-
+body{
+    background-color: #ab987a;
+}
 .bg {
     /* The image used */
     background-image: url("../images/possible.png");
     /* Full height */
     height: 100%;
-    margin-top: -59px;
+    margin-top: 0px;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -74,13 +82,19 @@ html {
     border-color: #f5f5f5;
 }
 
-
 /* About Me */
-
+.topPad{
+    padding-top: 75px;
+}
 
 /* Career */
-
-
+.widthfix{
+    width: 250px;
+}
+.fixicon{
+    font-size: 220px;
+    color: #f5f5f5;
+}
 /* Code */
 
 @media (max-width: 768px) {
