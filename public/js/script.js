@@ -55,3 +55,7 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
   document.body.appendChild(css);
 };
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})

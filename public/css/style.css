@@ -59,19 +59,16 @@ body {
 }
 
 .bg {
-    /* The image used */
     background-image: url("../images/possible.png");
-    /* Full height */
     height: 100%;
     margin-top: 0px;
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .fullscreen-text {
-    margin-top: 25%;
+    padding-top: 25%;
     margin-left: 70%;
     color: #f5f5f5;
 }
@@ -148,15 +145,23 @@ body {
     padding-left: 15px;
     padding-top: 15px;
 }
-.internalimage:hover{
-
+.contentBox:hover{
+    border-color: #fe6d50;
+}
+.contentBox:hover .internalimage{
     filter: blur(20px);
 }
 .showhim:hover .showme{
     display: block;
+    margin-bottom: -195px;
 }
 .showme{
     display: none;
+    position: absolute;
+    padding-left: 150px;
+    zoom: 0.75;
+    z-index: 2;
+
 }
 .aboutme .img {
     height: inherit !important;

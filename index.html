@@ -8,6 +8,8 @@
   <title>Maanav Dalal</title>
   <link hoverable align-center rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
     integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+    crossorigin="anonymous">
   <link hoverable align-center rel="stylesheet" href="public/css/style.css">
   <link rel="shortcut icon" href="public/images/favicon.ico" type="image/x-icon" />
 </head>
@@ -55,14 +57,13 @@
     <div class="container-fluid">
       <div class="fullscreen-text">
         <h1 class="helvetica rjust ">MAANAV DALAL</h1>
-        <h1 class="hideMD" 6 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <h1 class="hideMD"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           <i class="fa fa-code" aria-hidden="true"></i>
           <i class="fa fa-briefcase" aria-hidden="true"></i>
           <i class="fa fa-gamepad" aria-hidden="true"></i>
         </h1>
         <h2 class='helvetica hideMD'>
-          I'm a
-          <span class="txt-rotate" data-period="2000" data-rotate='[ " Coder.", " Gamer.", " Leader.", "n aspiring Dev."]'></span>
+          I'm a<span class="txt-rotate" data-period="2000" data-rotate='[ " Coder.", " Gamer.", " Leader.", "n aspiring Dev."]'></span>
         </h2>
 
       </div>
@@ -80,11 +81,20 @@
       </div>
     </div>
   </div>
+  
   <!-- Career -->
   <div class="career topPad" id="career">
     <div class="container-fluid">
       <h1 class="helvetica h-white">My Career</h1>
       <div class="row boxrow">
+        <div class="outerBoxes">
+          <div class="contentBox">
+            <div class="showhim" data-toggle="modal" data-target="#decaModal">
+              <img class="showme" src="public/images/ribbon.png" alt="Ribbon">
+              <img class="internalimage" src="public/images/temp.png" alt="DECA Image">
+            </div>
+          </div>
+        </div>
         <div class="outerBoxes">
           <div class="contentBox">
             <div class="showhim">
@@ -95,31 +105,55 @@
         </div>
         <div class="outerBoxes">
           <div class="contentBox">
-            START
+            <div class="showhim">
+              <img class="showme" src="public/images/ribbon.png" alt="Ribbon">
+              <img class="internalimage" src="public/images/temp.png" alt="DECA Image">
+            </div>
           </div>
         </div>
         <div class="outerBoxes">
           <div class="contentBox">
-            Kumon
-          </div>
-        </div>
-        <div class="outerBoxes">
-          <div class="contentBox">
-            BMYC
+            <div class="showhim">
+              <img class="showme" src="public/images/ribbon.png" alt="Ribbon">
+              <img class="internalimage" src="public/images/temp.png" alt="DECA Image">
+            </div>
           </div>
         </div>
       </div>
     </div>
-
   </div>
   <script src="public/js/script.js"></script>
   <script src="https://use.fontawesome.com/e31a692c31.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/6opper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
     crossorigin="anonymous"></script>
 </body>
+<!-- DECA Modal -->
+<div class="modal fade" id="decaModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- START Modal -->
 
+<!-- BMYC Modal -->
+
+<!-- Kumon Modal -->
 </html>
