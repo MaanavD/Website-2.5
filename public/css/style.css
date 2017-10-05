@@ -126,30 +126,30 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     float: left;
-    width:350px;
-    height:350px;
-    display:block;
+    width:320px;
+    height:320px;
+    display:flex;
     overflow:hidden;
 }
 
 .contentBox {
-    height: 320px;
-    width: 320px;
+    height: 290px;
+    width: 290px;
     margin: 15px 15px 15px 15px;
     border-style: solid;
     border-color: #121d33;
 }
 .internalimage{
-    height: 95%;
-    width: 95%;
-    padding-left: 15px;
-    padding-top: 15px;
+    height: 100%;
+    width: 100%;
+    filter: saturate(75%);
 }
 .contentBox:hover{
     border-color: #fe6d50;
 }
 .contentBox:hover .internalimage{
     filter: blur(20px);
+   
 }
 .showhim:hover .showme{
     display: block;
@@ -158,10 +158,9 @@ body {
 .showme{
     display: none;
     position: absolute;
-    padding-left: 150px;
+    padding-left: 135px;
     zoom: 0.75;
-    z-index: 2;
-
+    z-index: 1;
 }
 .aboutme .img {
     height: inherit !important;
